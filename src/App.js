@@ -1,6 +1,7 @@
+import React from 'react';
+// @ts-ignore
 import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with our {process.env.SECRETS}
         </a>
       </header>
     </div>
