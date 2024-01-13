@@ -16,11 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with our {process.env.SECRETS}
+          Learn React with Destiny
         </a>
       </header>
     </div>
   );
 }
-
 export default App;
